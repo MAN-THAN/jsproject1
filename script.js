@@ -29,15 +29,15 @@ else{
 function Settime(){
     if(document.getElementById("wakeuptime").value == z.getHours()){
         document.getElementById("txt1").innerHTML= "Let's Have Some Breakfast!!";
-        document.getElementById("txt2").style.backgroundImage = "url(./1639021106895.jpg)"
+        document.getElementById("txt2").style.backgroundImage = "url(./z1639021106895.jpg)"
     }
     if(document.getElementById("lunch").value == z.getHours()){
         document.getElementById("txt1").innerHTML= "Let's Have Lunch!!";
-        document.getElementById("txt2").style.backgroundImage = "url(./1639021106931.jpg)"
+        document.getElementById("txt2").style.backgroundImage = "url(./z1639021106931.jpg)"
     }
     if(document.getElementById("dinner").value == z.getHours()){
         document.getElementById("txt1").innerHTML= "See You Tomorrow!!";
-        document.getElementById("txt2").style.backgroundImage = "url(./1639021106853.jpg)"
+        document.getElementById("txt2").style.backgroundImage = "url(./z1639021106853.jpg)"
     }
     Makediv();
 
